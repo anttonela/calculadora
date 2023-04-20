@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Iphone</title>
+  <link rel="stylesheet" href="./calculadora.css">
+</head>
+
+<body>
+  <script src="./calculadora.js"></script>
+
+
+  <div class="calculator">
+
+    <input id="visor" class="value" value="0">
+
+
+    <div class="buttons-container">
+
+      <div class="button function ac" onclick="limpar()">AC</div>
+      <div class="button function pm" onclick="voltar()">pm</div>
+      <div class="button function percent" onclick="operadores(' % ')">%</div>
+      <div class="button operator division" onclick="operadores(' / ')">÷</div>
+      <div class="button" onclick="numeros('7')">7</div>
+      <div class="button" onclick="numeros('8')">8</div>
+      <div class="button" onclick="numeros('9')">9</div>
+      <div class="button" onclick="operadores(' * ')">×</div>
+      <div class="button" onclick="numeros('4')">4</div>
+      <div class="button" onclick="numeros('5')">5</div>
+      <div class="button" onclick="numeros('6')">6</div>
+      <div class="button" onclick="numeros('-')">−</div>
+      <div class="button" onclick="numeros('1')">1</div>
+      <div class="button" onclick="numeros('2')">2</div>
+      <div class="button" onclick="numeros('3')">3</div>
+      <div class="button" onclick="operadores(' + ')">+</div>
+      <div class="button number-0" onclick="numeros('0')"> 0</div>
+      <div class="button" onclick="numeros('.')">.</div>
+      <div class="button operator" onclick="calculo()"> = </div>
+    </div>
+    <div class="bottom"></div>
+    
+  </div>
+
+</body>
+
+</html>
+
+</body>
+
+</html>

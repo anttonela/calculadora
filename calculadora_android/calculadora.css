@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, hsl(209, 70%, 47%), rgba(107, 139, 151, 0.648));
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 24.8rem;
+}
+
+.calculadora {
+    height: 620px;
+    width: 310px;
+    background: #17181a;
+    color: white;
+    border-radius: 45px;
+    padding: 25px;
+    position: relative;
+    box-shadow: 9px 9px 9px rgb(14, 14, 14);
+}
+
+.calculadora-container {
+    height: 150px;
+    width: 260px;
+    background: #333;
+    border-radius: 43px;
+    padding-top: 15px;
+    box-shadow: 8px 8px 8px 8px rgb(14, 14, 14);
+}
+
+.resultado {
+    font-weight: 30;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 10px;
+}
+
+.sombra {
+    height: 50px;
+    width: 310px;
+    background: #2e2f30;
+    border-radius: 35px;
+    padding-left: 25px;
+    box-shadow: 8px 8px 8px 8px rgb(14, 14, 14);
+}
+
+input {
+    text-align: right;
+    font-size: 45px;
+    width: 100%;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.botoes-primeira-linha {
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding-top: 30px;
+}
+
+.buttonredondo {
+    background: #333;
+    color: rgb(37, 150, 190);
+    height: 40px;
+    width: 60px;
+    align-items: center;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    box-shadow: 3px 3px 3px rgb(14, 14, 14);
+}
+
+.botoes-container {
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 6px;
+}
+
+.botoes-operacao {
+    display: grid;
+    grid-gap: 6px;
+    padding-top: 6px;
+    padding-left: 15px;
+    box-shadow: 5px rgb(14, 14, 14);
+}
+
+.button {
+    background: #333;
+    color: #bcbcbc;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 28%;
+    cursor: pointer;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgb(14, 14, 14);
+}
+
+.buttondelete {
+    background: #606161;
+    color: #bcbcbc;
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 28%;
+    cursor: pointer;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    box-shadow: 3px 3px 3px rgb(14, 14, 14);
+}
+
+.buttonazul {
+    background: #005db2;
+    color: rgb(79, 165, 196);
+    height: 60px;
+    width: 60px;
+    align-items: center;
+    border-radius: 28%;
+    cursor: pointer;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    box-shadow: 7px 7px 7px rgb(14, 14, 14);
+}
+
+.buttonmaior {
+    background: #005db2;
+    color: rgb(79, 165, 196);
+    height: 90px;
+    width: 60px;
+    align-items: center;
+    border-radius: 11%;
+    cursor: pointer;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+}
+
+.botoes-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.buttonzero {
+    background: #333;
+    color: rgb(37, 150, 190);
+    height: 60px;
+    width: 132.5px;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    font-size: 23px;
+    justify-content: center;
+    box-shadow: 6px 6px 6px rgb(14, 14, 14);
+}
+
+.button:active,
+.button:focus {
+filter: brightness(160%);
+}
