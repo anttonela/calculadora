@@ -1,7 +1,9 @@
-# calculadora
+# Sobre
+Projeto JavaScript, HTML e CSS. Vídeo do funcionamento das calculadoras:
 
-Vídeo do funcionamento das calculadoras
+- Calculadora Android
+[calculadora-android.webm](https://github.com/anttonela/calculadora-sem-legenda/assets/116034175/1449f0ea-645e-4510-98d1-aeba0dba55ee)
 
-- calculadora iphone: [calculadora-iphone.webm](https://user-images.githubusercontent.com/116034175/233485058-8cfb525b-bb5a-440e-ae19-c7f7a633e3b8.webm)
 
-- calculadora samsung: [calculadora-samsung.webm](https://user-images.githubusercontent.com/116034175/233485137-5a62d566-efe2-4285-be44-e0d1c1c6d91d.webm)
+- Calculadora Iphone 
+[calculadora-iphone.webm](https://github.com/anttonela/calculadora-sem-legenda/assets/116034175/62210da9-eee3-428d-adcb-07df58c85ca7)
